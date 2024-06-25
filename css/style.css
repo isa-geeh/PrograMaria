@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  background-color: #8a71c9;
+  color: #ffffff;
+}
+
+h2 {
+  color: #2a0074;
+}
+
+h3 {
+  font-size: 22px;
+  font-style: italic;
+}
+
+.green-title {
+  color: #04ff9f;
+}
+.red-title {
+  color: #ff9e9e;
+}
+.yellow-title {
+  color: #ffe36d;
+}
