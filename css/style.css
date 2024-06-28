@@ -23,8 +23,12 @@ h2 {
 
 section {
   border: solid, 1px, yellow;
-  max-width: 60%;
+  width: 60%;
   margin: 0 auto;
+}
+
+section section {
+  width: fit-content;
 }
 
 h1 {
@@ -61,10 +65,14 @@ a {
 .main {
   background-color: #ff6cb5;
   height: 40px;
+  max-width: 60%;
+  margin: 0 auto;
 }
 
 .main li {
   display: inline-block;
+  line-height: 2.5;
+  margin: 0 89px;
 }
 
 .main a {
