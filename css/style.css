@@ -22,7 +22,6 @@ h2 {
 }
 
 section {
-  border: solid, 1px, yellow;
   width: 60%;
   margin: 0 auto;
 }
@@ -81,7 +80,7 @@ a {
   font-weight: normal;
 }
 
-button{
+button {
   background-color: #41f341;
   border: 1px, solid, transparent;
   padding: 2px 20px;

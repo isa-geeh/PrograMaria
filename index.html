@@ -170,7 +170,18 @@
 
       <label for="user-e-mail">E-mail:</label>
       <input id="user-e-mail" type="email" />
-      <button>Enviar</button>
+
+      <label for="phone"> Telefone: </label>
+      <input
+        type="tel"
+        id="telefone"
+        pattern="\(\d{2}\) \d \d{4}-\d{4}"
+        placeholder="(xx) x xxxx-xxxx"
+        required
+      />
+
+      <button id="sendButton">Enviar</button>
     </form>
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
